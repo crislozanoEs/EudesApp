@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:title="Inicio"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/donation"
+        android:enabled="true"
+        android:title="Donación"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/events"
+        android:enabled="true"
+        android:title="Eventos"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/info"
+        android:enabled="true"
+        android:title="Información"
+        app:showAsAction="ifRoom"
+        />
+</menu>
